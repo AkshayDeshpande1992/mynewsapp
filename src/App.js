@@ -6,7 +6,7 @@ import useStyles from './styles';
 const alanKey = process.env.ALAN_KEY_ID;
 const App = ()=>{
 
-    const classes = useStyles();
+    //const classes = useStyles();
     const [newsArticles,setNewsArticles]= useState([]);
     const [activeArticle,setActiveArticle]= useState(-1);
 
