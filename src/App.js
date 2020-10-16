@@ -2,9 +2,9 @@ import React,{useState,useEffect} from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import NewsCards from './components/NewsCards/NewsCards'
 
-const { ALAN_KEY_ID } = process.env;
+
 // import useStyles from './styles';
-const alanKey = ALAN_KEY_ID;
+const alanKey = process.env.REACT_APP_ALAN_KEY_ID;
 const App = ()=>{
 
     //const classes = useStyles();
