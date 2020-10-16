@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 import NewsCards from './components/NewsCards/NewsCards'
 
-import useStyles from './styles';
+// import useStyles from './styles';
 const alanKey = process.env.ALAN_KEY_ID;
 const App = ()=>{
 
