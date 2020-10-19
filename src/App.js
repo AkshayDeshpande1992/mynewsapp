@@ -3,7 +3,6 @@ import alanBtn from '@alan-ai/alan-sdk-web';
 import NewsCards from './components/NewsCards/NewsCards';
 import wordsToNumbers from 'words-to-numbers';
 
-const { REACT_APP_ALAN_KEY_ID } = process.env;
 // import useStyles from './styles';
 const alanKey = process.env.REACT_APP_ALAN_KEY_ID;
 const App = ()=>{
