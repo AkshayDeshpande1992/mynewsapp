@@ -70,13 +70,13 @@ export default makeStyles((theme) => ({
     padding: '0 37%',
     margin: '3% 0',
     cursor:'pointer',
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down('xs')]: {
       height: '35vmin',
       padding: '0 12%'
     },
     [theme.breakpoints.down('md')]: {
       height: '35vmin',
-      padding: '0 25%'
+      padding: '0 27%'
     }
     
   },
