@@ -72,6 +72,8 @@ export default makeStyles((theme) => ({
     cursor:'pointer',
     [theme.breakpoints.down('sm')]: {
       height: '35vmin',
+      padding: '0 14%'
     },
+    
   },
 }));
